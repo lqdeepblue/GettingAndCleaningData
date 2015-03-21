@@ -68,7 +68,7 @@ vNames <- gsub("\\(\\)","", vNames)
 colnames(combinedData) <- vNames
 
 ## replace activity index with proper names from activity_labels
-combinedData[,"activity"] <- activity_labels[combinedData[,"activity"],2]
+combinedData[,"activity"] <- activity_labels[combinedData[,"activity"], 2]
 
 ## -------------------------------------------
 ## Calculate the means by volunteer and activity
